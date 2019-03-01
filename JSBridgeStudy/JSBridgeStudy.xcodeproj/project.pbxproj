@@ -18,6 +18,7 @@
 		F19263BA2228CAFF00EA0360 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F19263B92228CAFF00EA0360 /* main.m */; };
 		F19263C42228CAFF00EA0360 /* JSBridgeStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F19263C32228CAFF00EA0360 /* JSBridgeStudyTests.m */; };
 		F19263CF2228CAFF00EA0360 /* JSBridgeStudyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F19263CE2228CAFF00EA0360 /* JSBridgeStudyUITests.m */; };
+		F19263E22228DBCE00EA0360 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = F19263E12228DBCE00EA0360 /* ExampleApp.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		F19263CA2228CAFF00EA0360 /* JSBridgeStudyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSBridgeStudyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F19263CE2228CAFF00EA0360 /* JSBridgeStudyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSBridgeStudyUITests.m; sourceTree = "<group>"; };
 		F19263D02228CAFF00EA0360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19263E12228DBCE00EA0360 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +115,6 @@
 				1024B198B3E77646BE25001D /* Pods-JSBridgeStudyUITests.debug.xcconfig */,
 				ABDE169A4CA502446F0BFB2F /* Pods-JSBridgeStudyUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,6 +143,7 @@
 		F19263A92228CAFD00EA0360 /* JSBridgeStudy */ = {
 			isa = PBXGroup;
 			children = (
+				F19263E12228DBCE00EA0360 /* ExampleApp.html */,
 				F19263AA2228CAFD00EA0360 /* AppDelegate.h */,
 				F19263AB2228CAFD00EA0360 /* AppDelegate.m */,
 				F19263AD2228CAFD00EA0360 /* ViewController.h */,
@@ -282,6 +284,7 @@
 				F19263B72228CAFF00EA0360 /* LaunchScreen.storyboard in Resources */,
 				F19263B42228CAFF00EA0360 /* Assets.xcassets in Resources */,
 				F19263B22228CAFD00EA0360 /* Main.storyboard in Resources */,
+				F19263E22228DBCE00EA0360 /* ExampleApp.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,6 +555,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42AF8CHWZA;
 				INFOPLIST_FILE = JSBridgeStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -570,6 +574,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 42AF8CHWZA;
 				INFOPLIST_FILE = JSBridgeStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
